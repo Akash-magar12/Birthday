@@ -64,7 +64,7 @@ const Birthday = () => {
 
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="flex mb-6 items-center gap-2 flex-wrap"
+        className="flex mb-6 items-center gap-2  flex-wrap"
       >
         <div className="w-full  flex flex-col gap-1">
           <input
@@ -117,7 +117,7 @@ const Birthday = () => {
           )}
         </div>
         <input
-          className="text-xs cursor-pointer bg-blue-500 text-white px-3 py-1 rounded outline-none"
+          className="text-xs  cursor-pointer bg-blue-500 text-white px-3 py-1 rounded outline-none"
           type="submit"
           value="Create"
         />
